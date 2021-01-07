@@ -1,0 +1,18 @@
+    lst<-ls()
+    save(list = lst, file = "all.rdata"####保存新的变量
+安装包
+    BioConductor
+		#先安装biomanager包
+		#To install this package, start R (version "4.0") and enter:
+            if (!requireNamespace("BiocManager", quietly = TRUE))   
+            install.packages("BiocManager")
+        #Affy包
+            BiocManager::install("affy")
+        #AffyPLM包
+            BiocManager::install("affyPLM")
+        #Limma包
+            BiocManager::install("limma")
+        #GEOquery包
+            BiocManager::install("GOquery")
+		#DEVTOOLS包
+			BiocManager::install("devtools")	
